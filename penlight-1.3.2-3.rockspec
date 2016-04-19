@@ -1,11 +1,11 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "penlight"
-version = "1.3.2-2"
+version = "1.3.2-3"
 
 -- LuaDist source
 source = {
-  tag = "1.3.2-2",
+  tag = "1.3.2-3",
   url = "git://github.com/LuaDist2/penlight.git"
 }
 -- Original source
@@ -71,5 +71,6 @@ build = {
     ["pl.url"] = "lua/pl/url.lua",
     ["pl.import_into"] = "lua/pl/import_into.lua",
     ["pl.types"] = "lua/pl/types.lua",
+    ["pl.compat"] = "lua/pl/compat.lua",
   },
 }
